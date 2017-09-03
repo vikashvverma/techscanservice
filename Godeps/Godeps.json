@@ -1,0 +1,39 @@
+{
+  "ImportPath": "github.com/vikashvverma/techscanservice",
+  "GoVersion": "go1.8",
+  "Packages": [
+    "./..."
+  ],
+  "Deps": [
+    {
+      "ImportPath": "github.com/gin-gonic/gin"
+    },
+    {
+      "ImportPath": "github.com/codegangsta/negroni"
+    },
+    {
+      "ImportPath": "github.com/gorilla/context"
+    },
+    {
+      "ImportPath": "github.com/gorilla/handlers"
+    },
+    {
+      "ImportPath": "github.com/gorilla/mux"
+    },
+    {
+      "ImportPath": "github.com/lib/pq"
+    },
+    {
+      "ImportPath": "github.com/Sirupsen/logrus"
+    },
+    {
+      "ImportPath": "github.com/stretchr/testify"
+    },
+    {
+      "ImportPath": "golang.org/x/crypto"
+    },
+    {
+      "ImportPath": "golang.org/x/sys"
+    }
+  ]
+}

@@ -2,7 +2,16 @@
   "ImportPath": "github.com/vikashvverma/techscanservice",
   "GoVersion": "go1.8",
   "Packages": [
-    "./..."
+    "./...",
+    "github.com/codegangsta/negroni",
+    "github.com/gorilla/context",
+    "github.com/gorilla/handlers",
+    "github.com/gorilla/mux",
+    "github.com/lib/pq",
+    "github.com/Sirupsen/logrus",
+    "github.com/stretchr/testify",
+    "golang.org/x/crypto",
+    "golang.org/x/sys"
   ],
   "Deps": [
     {

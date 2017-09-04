@@ -1,1 +1,1 @@
-web: techscans
+web: techscan

@@ -1,0 +1,11 @@
+{
+  "name": "Start on Heroku: Go",
+  "description": "techscanservice",
+  "keywords": [
+    "go"
+  ],
+  "image": "heroku/go:1.8",
+  "mount_dir": "src/github.com/vikashvverma/techscanservice",
+  "website": "techscan.programminggeek.in",
+  "repository": "http://github.com/vikashvverma/techscanservice"
+}

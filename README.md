@@ -12,6 +12,6 @@ Preview: http://techscan.programminggeek.in
 - Run `glide install` to install dependencies
 - Run `go build -o out/build/techscanservice ./apps/techscan/main.go` to build binary
 - Update the config present at `./config/dev.env`. This is important and app won't start unless configs are valid.
-- Leav the config ass it is if you want to connect to default cloud instance.
+- Leave the config as it is if you want to connect to default cloud instance.
 - Run `./dev.sh` to start techscanservice.
 

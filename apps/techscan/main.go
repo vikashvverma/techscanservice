@@ -14,6 +14,7 @@ import (
 	"github.com/vikashvverma/techscanservice/config"
 	"github.com/vikashvverma/techscanservice/factory"
 	"github.com/vikashvverma/techscanservice/router"
+	"github.com/vikashvverma/techscanservice/log"
 )
 
 const (
@@ -56,6 +57,7 @@ func main() {
 	handlers.CORS(headersOk, originsOk, methodsOk)
 
 	n := negroni.New()
+	n.Use(log.New())
 	n.UseHandler(handlers.CORS(headersOk, originsOk, methodsOk)(muxRouter))
 	n.Run(fmt.Sprintf(":%d", c.Port()))
 }
